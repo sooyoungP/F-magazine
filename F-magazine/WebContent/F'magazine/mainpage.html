@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet"
+   href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script
+   src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script
+   src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+
+<title>Main page</title>
+</head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<style>
+	.image {
+	   position: relative;
+	}
+	
+	.image .text {
+	   position: absolute;
+	   top: 20%;
+	   left: 34%;
+	   color: #FFF;
+	}
+	
+	#box {
+	   border-radius: 10px;
+	}
+	</style>
+	
+<body>
+   <div id="carouselExampleIndicators" class="carousel slide"
+      data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0"
+            class="active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
+         <div class="carousel-item active image">
+            <img class="d-block w-100" src="images/5.jpg" alt="첫번째 슬라이드">
+            <div class="col-md-8 text">
+               <h1 class="mbr-section-title display-1">F-magazine</h1>
+               <br>
+               <input id='box' size='40' style="border: 2px solid #FFF;" type ='text' value=' Search' onfocus="this.value=''"></input>
+               <span class='glyphicon glyphicon-search'></span>
+            </div>            
+         </div>
+
+
+         <div class="carousel-item image">
+            <img class="d-block w-100" src="images/4.jpg" alt="두번째 슬라이드">
+            <div class="col-md-8 text">
+               <h1 class="mbr-section-title display-1">F-magazine</h1>
+               <br>
+               <input id='box' size='40' style="border: 2px solid #FFF;" type ='text' value=' Search' onfocus="this.value=''"></input>
+            	<span class='glyphicon glyphicon-search'></span>
+            </div>
+         </div>
+         
+		<div class="carousel-item image">
+            <img class="d-block w-100" src="images/6.jpg" alt="세번째 슬라이드">
+            <div class="col-md-8 text">
+               <h1 class="mbr-section-title display-1">F-magazine</h1>
+               <br>
+               <input id='box' size='40' style="border: 2px solid #FFF;" type ='text' value=' Search' onfocus="this.value=''"></input>
+               <span class='glyphicon glyphicon-search'></span>
+            </div>
+         </div> 
+
+      <div>
+		
+	      <a class="carousel-control-prev" href="#carouselExampleIndicators"
+	         role="button" data-slide="prev"> <span
+	         class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+	         class="sr-only">이전</span>
+	      </a> 
+	      <a class="carousel-control-next" href="#carouselExampleIndicators"
+	         role="button" data-slide="next"> <span
+	         class="carousel-control-next-icon" aria-hidden="true"></span> <span
+	         class="sr-only">다음</span>
+	      </a>
+     </div>
+   
+</body>
+</html>
